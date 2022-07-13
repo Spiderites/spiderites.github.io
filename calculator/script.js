@@ -62,4 +62,14 @@ function o(){
 function p(){
     m = "";
 }
+function q(){
+    document.getElementById('a').innerHTML = m + "(";
+    m+="(";
+   }
+function r(){
+    document.getElementById('a').innerHTML = m + ")";
+    m+=")";
+   }
+
+
 
