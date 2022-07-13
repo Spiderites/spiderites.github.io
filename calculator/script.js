@@ -1,4 +1,4 @@
-let m = "";
+let m = " ";
 function a(){
     document.getElementById('a').innerHTML = m + "+";
     m+="+";
@@ -60,6 +60,6 @@ function o(){
     document.getElementById('a').innerHTML = m;
 }
 function p(){
-    m = "";
+    m = " ";
 }
 
