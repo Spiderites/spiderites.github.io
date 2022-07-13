@@ -1,4 +1,4 @@
-let m = 0;
+let m = "";
 function a(){
     document.getElementById('a').innerHTML = m + "+";
     m+="+";
