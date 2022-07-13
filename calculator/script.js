@@ -59,3 +59,7 @@ function o(){
     m = eval(m)
     document.getElementById('a').innerHTML = m;
 }
+function p(){
+    m = " ";
+}
+
