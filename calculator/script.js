@@ -61,6 +61,7 @@ function o(){
 }
 function p(){
     m = "";
+    document.getElementById('a').innerHTML = m;
 }
 function q(){
     document.getElementById('a').innerHTML = m + "(";
@@ -70,6 +71,7 @@ function r(){
     document.getElementById('a').innerHTML = m + ")";
     m+=")";
    }
-
-
-
+   function s(){
+m = m.slice(0, -1);
+    document.getElementById('a').innerHTML = m;
+   }
