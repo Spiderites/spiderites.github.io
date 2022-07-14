@@ -71,3 +71,7 @@ function r(){
     document.getElementById('a').innerHTML = m + ")";
     m+=")";
    }
+function s(){
+    m = m.slice(0, -1);
+    document.getElementById('a').innerHTML = m;
+} 
